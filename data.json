@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Yacht 1",
+    "speed": 500,
+    "owner": "Jerry Jacobson"
+  },
+  {
+    "name": "Yacht 2",
+    "speed": 300,
+    "owner": "Sharon Sherryson"
+  }
+]

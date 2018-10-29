@@ -1,0 +1,28 @@
+$mainColor: #FD4D0C;
+$secColor: #F7DDD4;
+$terColor: #FCBA12;
+$bg-color-1: #1258DC;
+$bg-color-2: #342809;
+
+body {
+  margin: 0;
+  background: $bg-color-1;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+#title-1 {
+  color: $mainColor;
+  text-align: center;
+}
+
+h2 {
+  color: $secColor;
+}
+
+h3 {
+  color: $terColor;
+}

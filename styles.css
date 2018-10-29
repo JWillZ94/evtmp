@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background: #1258DC; }
+
+.container {
+  max-width: 80%;
+  margin: auto; }
+
+#title-1 {
+  color: #FD4D0C;
+  text-align: center; }
+
+h2 {
+  color: #F7DDD4; }
+
+h3 {
+  color: #FCBA12; }
+
+/*# sourceMappingURL=styles.css.map */
