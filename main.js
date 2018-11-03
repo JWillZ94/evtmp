@@ -2,17 +2,6 @@ const terColor = "#FCBA12";
 
 $(function() {
 
-  $("#buy-dropdown").hide();
-
-  $("#buy-link").hover(
-    function() {
-      $("#buy-dropdown").show();
-    },
-    function() {
-      $("#buy-dropdown").hide();
-    }
-  );
-
   $.get('./data.json', function(data) {
     for (let yacht of data) {
       $(".container").append(`

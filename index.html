@@ -11,14 +11,32 @@
 <body>
   <nav id="main-nav">
     <ul class="nav-section">
-      <li><a id="logo" href="">frulia</a></li>
-      <li id="buy-link">
-        <a href="">Buy</a>
+      <li class="nav-item"><a id="logo" href="">frulia</a></li>
+      <li class="dropdown nav-item">
+        <a href="" class="nav-link">Buy</a>
+        <ul class="dropdown-content">
+          <li class="dropdown-item">
+            <a href="" class="dropdown-link">Homes for Sale</a>
+          </li>
+          <li class="dropdown-item">
+            <a href="" class="dropdown-link">Open Houses</a>
+          </li>
+          <li class="dropdown-item">
+            <a href="" class="dropdown-link">New Homes</a>
+          </li>
+          <li class="dropdown-item">
+            <a href="" class="dropdown-link">Recently Sold</a>
+          </li>
+          <hr>
+          <li class="dropdown-item">
+            <a href="" class="dropdown-link">See Newest Listings</a>
+          </li>
+        </ul>
       </li>
-      <li><a href="">Rent</a></li>
-      <li><a href="">Mortgage</a></li>
-      <li><a href="">Local Info</a></li>
-      <li><a href="">Additional Resources</a></li>
+      <li class="dropdown nav-item"><a href="" class="nav-link">Rent</a></li>
+      <li class="dropdown nav-item"><a href="" class="nav-link">Mortgage</a></li>
+      <li class="dropdown nav-item"><a href="" class="nav-link">Local Info</a></li>
+      <li class="dropdown nav-item"><a href="" class="nav-link">Additional Resources</a></li>
     </ul>
     <ul class="nav-section">
       <li><a href="">Saved Homes</a></li>
@@ -29,15 +47,6 @@
   <div class="container">
 
   </div>
-
-  <ul id="buy-dropdown" class="dropdown">
-    <li><a href="">Homes for Sale</a></li>
-    <li><a href="">Open Houses</a></li>
-    <li><a href="">New Homes</a></li>
-    <li><a href="">Recently Sold</a></li>
-    <hr>
-    <li><a href="">See Newest Listings</a></li>
-  </ul>
 
   <script src="main.js"></script>
 </body>
