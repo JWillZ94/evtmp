@@ -1,13 +1,17 @@
 const terColor = "#FCBA12";
 
 $(function() {
-  $('#title-1')
-    .css('font-size', '100px')
-    .click(function() {
-      $(this).hide(function() {
-        $(this).slideDown();
-      });
-    });
+
+  $("#buy-dropdown").hide();
+
+  $("#buy-link").hover(
+    function() {
+      $("#buy-dropdown").show();
+    },
+    function() {
+      $("#buy-dropdown").hide();
+    }
+  );
 
   $.get('./data.json', function(data) {
     for (let yacht of data) {

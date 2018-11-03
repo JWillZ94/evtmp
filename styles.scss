@@ -1,12 +1,14 @@
 $mainColor: #FD4D0C;
 $secColor: #F7DDD4;
 $terColor: #FCBA12;
+$mainTextColor: #fff;
 $bg-color-1: #1258DC;
 $bg-color-2: #342809;
 
 body {
   margin: 0;
   background: $bg-color-1;
+  font-family: sans-serif;
 }
 
 .container {
@@ -14,15 +16,40 @@ body {
   margin: auto;
 }
 
-#title-1 {
-  color: $mainColor;
-  text-align: center;
+// #logo {
+//   font-size: 1.6em;
+// }
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-h2 {
-  color: $secColor;
+.nav-section {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
 }
 
-h3 {
-  color: $terColor;
+.nav-section > li {
+  padding: 0.5rem 0.8rem;
+  font-weight: bold;
+  border: 0 solid;
+}
+
+.nav-section > li:hover {
+  background: $mainColor;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-section > li > a {
+  color: $mainTextColor;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.dropdown {
+  display: hidden;
+  padding: 0;
 }
