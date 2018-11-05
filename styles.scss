@@ -14,6 +14,45 @@ body {
   font-family: sans-serif;
 }
 
+#main-cover {
+  background: url("https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?cs=srgb&dl=apartment-architectural-design-architecture-323780.jpg&fm=jpg");
+  background-position: center;
+  background-size: cover;
+  height: 528px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+
+#main-heading-container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+#main-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mh-title {
+  font-size: 2.5em;
+}
+
+#mh-btn-group {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  background: rgba(0, 0, 0, 0.5);
+  border: solid 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.mh-btn {
+  padding: 15px 25px;
+}
+
 .container {
   max-width: 80%;
   margin: auto;
